@@ -15,12 +15,13 @@
 form div {
     width: 100%;
     margin-bottom: 2rem;
+    display: flex;
 }
 form div label {
-    width: 40%;
+    width: auto;
 }
 form div input {
-    width: 60%;
+    width: fit-content;
 }
 form .btns {
     width: 100%;
@@ -37,5 +38,4 @@ form .btns .create {
     background-color:#008000;
     color: var(--main-color-orange);
 }
-
 
