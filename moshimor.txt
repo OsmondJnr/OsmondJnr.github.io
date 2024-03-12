@@ -1,0 +1,10 @@
+This is the ss2 project of okaekwu kamsi.
+It is a banking app named Moshimor banking.
+It looks different on a laptop screen and a phone screen though.
+
+
+****************************************************
+NOTE : the create account function just creates like a simple account in the local storage and does not involve any back-end tools.
+
+****************************************************
+

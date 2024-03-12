@@ -1,0 +1,128 @@
+:root{
+    --main-color-orange:#FFA500;
+    --bg-white: #fff;
+    --black:#13131a;
+    --border:#493e3e;
+    --mysweet-blue:#4682B4;
+    --black-mask:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))
+  }
+.footer {
+    width: 100% !important;
+    position: absolute;
+    left: 0;
+}
+footer {
+    position: absolute;
+    left: 0;
+    margin-top: 200px;
+    width: 100%;
+    background-color: var(--mysweet-blue);
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--black);
+}
+footer h3{
+    font-size: 4rem; 
+    margin-bottom: 5px;
+}
+footer h3 a {
+    text-decoration: none; 
+    color: var(--main-color-orange);
+}
+footer .social_icons, footer .menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+footer .social_icons li, footer .menu li {
+    list-style-type: none;
+}
+footer .social_icons li a {
+    font-size: 2.5rem;
+    color: var(--black);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icons li a:hover {
+    transform: translateY(-10px);
+    color: var(--main-color-orange);
+}
+footer .menu li a {
+    font-size: 2em;
+    color: black;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+    text-decoration: none;
+}
+footer .menu li a:hover {
+    opacity: 1;
+}
+footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background:  url(./wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_2 4s linear infinite;
+}
+footer .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 10px;
+    animation: animateWave_2 3s linear infinite;
+}
+@keyframes animateWave {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_2 {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+.footer .credit{
+    font-size: 1.4rem;
+    color: var(--main-color-orange);
+    font-weight: lighter;
+    padding: 1.5rem;
+
+}
+.footer .credit span{
+    color: var(--black);
+}
+
+

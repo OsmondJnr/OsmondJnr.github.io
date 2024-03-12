@@ -1,0 +1,41 @@
+.create-account {
+    display: block;
+    width: 100%;
+    margin-top: 10rem;
+    padding: 4rem;
+    height: fit-content;
+    text-align: center;
+    font-size: 2rem;
+}
+.create-account form {
+    padding: 2rem;
+    background-color: var(--main-color-orange);
+    border-radius: 2rem;
+}
+form div {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+form div label {
+    width: 40%;
+}
+form div input {
+    width: 60%;
+}
+form .btns {
+    width: 100%;
+}
+form .btns .cancel {
+    padding: 1.2rem;
+    border-radius: 2rem 0 2rem 0;
+    background-color:#ff0000;
+    color: var(--main-color-orange);
+}
+form .btns .create {
+    padding: 1.2rem;
+    border-radius: 2rem 0 2rem 0;
+    background-color:#008000;
+    color: var(--main-color-orange);
+}
+
+
